@@ -26,11 +26,11 @@ I’m someone who genuinely loves to explore different things — not because I�
 
 Here are a few things that make me, *me*:
 
-- 🎤 I love to sing — I’ve shared some of my singing reels on my [riju.ta_](https://instagram.com/riju.ta_)
+- 🎤 I love to sing — I’ve shared some of my singing reels on my [Instagram page](https://instagram.com/riju.ta_)
 - 🖌️ I paint using **gouache**, especially when I want to relax and express emotions
 - 🧠 I enjoy learning just about anything that sparks my interest — whether it’s psychology, tech, art, or human behavior
 - 💻 I code too — as a **BTech CSE 2nd-year student**, I'm currently building Java projects and will soon be diving into **C++** this semester
-- 💬 I run an [_cheshire.cat_15](https://instagram.com/_cheshire.cat_15) where I share **lessons I've learned, motivational thoughts**, and personal reflections — mostly shaped by my own mistakes and growth
+- 💬 I run an [Instagram page](https://instagram.com/_cheshire.cat_15) where I share **lessons I've learned, motivational thoughts**, and personal reflections — mostly shaped by my own mistakes and growth
 
 I may not be the best at any one thing, but I’m proud to love many things — and that’s how I stay inspired 🌻
 
