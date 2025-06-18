@@ -1,38 +1,37 @@
-/* Full-width header and footer */
-header, footer {
-  background-color: #d3f5d2; /* pastel green */
+header {
+  background-color: #d3f5d2;
   width: 100vw;
-  padding: 20px 0;
+  margin: 0;
+  padding: 10px 0;
+  position: relative;
+  left: 0;
+  right: 0;
 }
 
-/* Center header content */
-header .wrapper,
-footer .wrapper {
+/* Keep the inner content centered */
+.wrapper {
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 1rem;
 }
 
-/* Center blog content */
-.main-content {
-  max-width: 720px;
-  margin: 40px auto;
-  padding: 0 1rem;
-  text-align: left;
-}
-
-/* Remove stretch from global layout elements */
+/* Basic body styling */
 body > div, .wrapper, .container, .site-container {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/* Link color */
+a {
+  color: #2d7f5e;
 }
 
 /* Blog post title */
 .post-title {
   color: #1a4430;
   font-weight: bold;
-  text-align: left;
 }
 
 /* Code blocks */
@@ -43,9 +42,3 @@ code, pre {
   padding: 4px;
   border-radius: 4px;
 }
-
-/* Link color */
-a {
-  color: #2d7f5e;
-}
-
