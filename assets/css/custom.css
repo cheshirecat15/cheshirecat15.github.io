@@ -16,10 +16,11 @@ header {
 
 /* Basic body styling */
 body > div, .wrapper, .container, .site-container {
-  max-width: 100% !important;
+  max-width: 720px !important;
   width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 40px auto !important;
+  padding: 0 1rem !important;
+  text-align: left;
 }
 
 
