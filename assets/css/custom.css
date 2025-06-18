@@ -1,16 +1,11 @@
 header {
-  background-color: #d3f5d2 !important;
-}
-
-/* Apply full-width green background to header and footer */
-.site-header, .site-footer {
-  background-color: #d3f5d2; /* pastel green */
+  background-color: #d3f5d2;
   width: 100vw;
+  margin: 0;
+  padding: 10px 0;
   position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  left: 0;
+  right: 0;
 }
 
 /* Keep the inner content centered */
