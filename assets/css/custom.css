@@ -8,20 +8,30 @@ header {
   right: 0;
 }
 
-/* Keep the inner content centered */
+/* Centered content inside header/footer */
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 /* Basic body styling */
-body > div, .wrapper, .container, .site-container {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #004d00;
+  margin: 0;
+  padding: 0;
 }
 
+/* Center the main blog post content */
+main, .post, .page-content {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
 
 /* Link color */
 a {
