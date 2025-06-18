@@ -88,3 +88,22 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+markdown: kramdown
+
+# Add this line
+sass:
+  style: compressed
+
+# Add this to include your CSS
+include:
+  - assets/css/custom.css
