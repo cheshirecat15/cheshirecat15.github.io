@@ -1,6 +1,7 @@
-body {
-  background-color: pink !important;
+.site-header {
+  background-color: #d3f5d2 !important;
 }
+
 /* Apply full-width green background to header and footer */
 .site-header, .site-footer {
   background-color: #d3f5d2; /* pastel green */
