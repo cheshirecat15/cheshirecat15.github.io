@@ -29,11 +29,24 @@ code, pre {
   color: #004d00;
 }
 
-/* ✅ Full-Width Header and Footer */
+/* 🌿 Full-width header and footer with pastel green background */
 header, footer {
-  background-color: #d3f1ce; /* pastel green */
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  background-color: #d3f1ce; /* pastel green */
   padding: 1.2em 0;
   text-align: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+/* Remove limiting styles from inner wrappers */
+header .wrapper, footer .wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
 }
