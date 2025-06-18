@@ -1,47 +1,38 @@
-header {
-  background-color: #d3f5d2;
+/* Full-width header and footer */
+header, footer {
+  background-color: #d3f5d2; /* pastel green */
   width: 100vw;
-  margin: 0;
-  padding: 10px 0;
-  position: relative;
-  left: 0;
-  right: 0;
+  padding: 20px 0;
 }
 
-/* Centered content inside header/footer */
-.wrapper {
+/* Center header content */
+header .wrapper,
+footer .wrapper {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 1rem;
-  box-sizing: border-box;
 }
 
-/* Basic body styling */
-body {
-  background-color: #ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #004d00;
+/* Center blog content */
+.main-content {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 0 1rem;
+  text-align: left;
+}
+
+/* Remove stretch from global layout elements */
+body > div, .wrapper, .container, .site-container {
+  width: 100%;
   margin: 0;
   padding: 0;
-}
-
-/* Center the main blog post content */
-main, .post, .page-content {
-  max-width: 750px;
-  margin: 0 auto;
-  padding: 1rem;
-  box-sizing: border-box;
-}
-
-/* Link color */
-a {
-  color: #2d7f5e;
 }
 
 /* Blog post title */
 .post-title {
   color: #1a4430;
   font-weight: bold;
+  text-align: left;
 }
 
 /* Code blocks */
@@ -52,11 +43,9 @@ code, pre {
   padding: 4px;
   border-radius: 4px;
 }
-.page, .post, .page-content {
-  max-width: 750px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  text-align: left;
-}
 
+/* Link color */
+a {
+  color: #2d7f5e;
+}
 
