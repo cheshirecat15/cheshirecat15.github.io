@@ -1,38 +1,39 @@
+/* 🌿 Base Styling */
 body {
-  background-color: #eaf8e6; /* pastel green */
+  background-color: #eaf8e6; /* soft pastel green */
   color: #004d00; /* dark green text */
   font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+/* 🌱 Link Styling */
 a {
   color: #006400; /* dark green links */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 
-nav, header, footer {
-  background-color: #d3f1ce; /* light pastel green accents */
+/* 🧩 Code Blocks */
+code, pre {
+  background-color: #d9f8d9; /* slightly lighter green */
+  color: #003300;
+  padding: 0.3em;
+  border-radius: 4px;
 }
 
+/* ✍️ Post Title */
 .post-title {
   color: #004d00;
 }
 
-code, pre {
-  background-color: #d9f8d9; /* slightly lighter green for code blocks */
-  color: #003300;
-}
-
-/* Make header and footer backgrounds full width */
-/* Full-width header and footer */
+/* ✅ Full-Width Header and Footer */
 header, footer {
   background-color: #d3f1ce; /* pastel green */
-  padding: 1.2em 0;
-}
-
-header .wrapper, footer .wrapper {
-  max-width: 100%;
   width: 100vw;
-  margin: 0;
-  padding: 0 1em; /* add some left/right space if needed */
-  box-sizing: border-box;
+  margin-left: calc(-50vw + 50%);
+  padding: 1.2em 0;
+  text-align: center;
 }
-
