@@ -11,7 +11,7 @@ header {
 /* Keep the inner content centered */
 .wrapper {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 2 auto;
 }
 
 /* Basic body styling */
