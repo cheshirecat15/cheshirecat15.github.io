@@ -1,43 +1,44 @@
-/* Make body background pastel green and text dark green */
-body {
-  background-color: #eaf8e6;
-  color: #004d00;
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-/* Full-width green header and footer */
-.site-header,
-.site-footer {
-  background-color: #d3f1ce; /* pastel green */
+/* Apply full-width green background to header and footer */
+.site-header, .site-footer {
+  background-color: #d3f5d2; /* pastel green */
   width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  padding: 1.2em 0;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
-/* Make sure content inside header/footer is centered and looks good */
-.site-header .wrapper,
-.site-footer .wrapper {
-  max-width: 1200px;
+/* Keep the inner content centered */
+.wrapper {
+  max-width: 960px;
   margin: 0 auto;
-  padding: 0 1em;
-  box-sizing: border-box;
 }
 
-/* Dark green links */
+/* Basic body styling */
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Link color */
 a {
-  color: #006400;
+  color: #2d7f5e;
 }
 
-/* Post titles */
+/* Blog post title */
 .post-title {
-  color: #004d00;
+  color: #1a4430;
+  font-weight: bold;
 }
 
 /* Code blocks */
 code, pre {
-  background-color: #d9f8d9;
-  color: #003300;
+  background-color: #eefbee;
+  color: #264d3c;
+  font-family: monospace;
+  padding: 4px;
+  border-radius: 4px;
 }
 
