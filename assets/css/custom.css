@@ -20,3 +20,12 @@ code, pre {
   background-color: #d9f8d9; /* slightly lighter green for code blocks */
   color: #003300;
 }
+
+/* Make header and footer backgrounds full width */
+header, footer {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 1em 0;
+  background-color: #d3f1ce; /* your pastel green */
+  text-align: center;
+}
