@@ -1,51 +1,43 @@
-/* 🌿 Base Styling */
+/* Make body background pastel green and text dark green */
 body {
-  background-color: #eaf8e6; /* soft pastel green */
-  color: #004d00; /* dark green text */
+  background-color: #eaf8e6;
+  color: #004d00;
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* 🌱 Link Styling */
+/* Full-width green header and footer */
+.site-header,
+.site-footer {
+  background-color: #d3f1ce; /* pastel green */
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 1.2em 0;
+}
+
+/* Make sure content inside header/footer is centered and looks good */
+.site-header .wrapper,
+.site-footer .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1em;
+  box-sizing: border-box;
+}
+
+/* Dark green links */
 a {
-  color: #006400; /* dark green links */
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
+  color: #006400;
 }
 
-/* 🧩 Code Blocks */
-code, pre {
-  background-color: #d9f8d9; /* slightly lighter green */
-  color: #003300;
-  padding: 0.3em;
-  border-radius: 4px;
-}
-
-/* ✍️ Post Title */
+/* Post titles */
 .post-title {
   color: #004d00;
 }
 
-/* 🌿 Full-width header and footer background */
-header::before, footer::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100vw;
-  background-color: #d3f1ce; /* pastel green */
-  z-index: -1;
-}
-
-/* Ensure header/footer are relatively positioned */
-header, footer {
-  position: relative;
-  padding: 1.2em 0;
-  text-align: center;
-  z-index: 1;
+/* Code blocks */
+code, pre {
+  background-color: #d9f8d9;
+  color: #003300;
 }
 
