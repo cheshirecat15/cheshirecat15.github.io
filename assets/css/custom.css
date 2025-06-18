@@ -1,0 +1,22 @@
+body {
+  background-color: #eaf8e6; /* pastel green */
+  color: #004d00; /* dark green text */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a {
+  color: #006400; /* dark green links */
+}
+
+nav, header, footer {
+  background-color: #d3f1ce; /* light pastel green accents */
+}
+
+.post-title {
+  color: #004d00;
+}
+
+code, pre {
+  background-color: #d9f8d9; /* slightly lighter green for code blocks */
+  color: #003300;
+}
