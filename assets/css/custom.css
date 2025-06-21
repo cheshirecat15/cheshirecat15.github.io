@@ -47,3 +47,15 @@ code, pre {
   padding: 4px;
   border-radius: 4px;
 }
+
+#main.container {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
