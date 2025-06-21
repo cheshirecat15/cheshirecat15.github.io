@@ -1,46 +1,47 @@
-header,footer {
+/* 🌿 Full-width background for header & footer */
+.wrapper-masthead,
+.wrapper-footer {
   background-color: #d3f5d2;
-  width: 100vw;
+}
+
+/* ✅ Center header and footer content */
+.wrapper-masthead > .container,
+.wrapper-footer > .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  box-sizing: border-box;
+}
+
+/* ✅ Center blog content */
+#main.container {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+}
+
+/* ✅ Prevent horizontal scroll */
+html, body {
   margin: 0;
-  padding: 10px 0;
-  position: relative;
-  left: 0;
-  right: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-.wrapper-masthead, .wrapper-footer {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  background-color: #d3f5d2;
-}
-
-
-/* Basic body styling */
-body > div, .wrapper, .container, .site-container {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 !important;
-  padding: 0 2rem !important;;
-}
-
-
-/* Link color */
+/* ✅ Link color */
 a {
   color: #2d7f5e;
 }
 
-/* Blog post title */
+/* ✅ Blog post title */
 .post-title {
   color: #1a4430;
   font-weight: bold;
 }
 
-/* Code blocks */
-code, pre {
+/* ✅ Code blocks */
+code,
+pre {
   background-color: #eefbee;
   color: #264d3c;
   font-family: monospace;
@@ -48,11 +49,6 @@ code, pre {
   border-radius: 4px;
 }
 
-#main.container {
-  max-width: 720px;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
-}
 
 html, body {
   margin: 0;
