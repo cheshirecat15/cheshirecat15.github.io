@@ -8,11 +8,16 @@ header,footer {
   right: 0;
 }
 
-/* Keep the inner content centered */
-.wrapper {
-  max-width: 960px;
-  margin: 2 auto;
+.wrapper-masthead, .wrapper-footer {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  background-color: #d3f5d2;
 }
+
 
 /* Basic body styling */
 body > div, .wrapper, .container, .site-container {
